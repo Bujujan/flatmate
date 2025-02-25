@@ -7,7 +7,7 @@ import Button from '../components/Button';
 export default function App() {
   return (
     <View className='flex-1 items-center justify-center'>
-      <Text className='text-3xl'>Welcome to FlatMate!</Text>
+      <Text className='font-pextrabold text-3xl'>Welcome to FlatMate!</Text>
       <StatusBar style="auto" />
       <Button title='Explore The App!'></Button>
       

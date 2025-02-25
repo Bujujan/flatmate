@@ -9,7 +9,7 @@ type ButtonProps = {
 const Button = ( { title}: ButtonProps) => {
   return (
     <TouchableOpacity className='bg-blue-600 px-6 py-5 rounded-xl'>
-        <Text className='text-white'>{title}</Text>
+        <Text className='text-white font-psemibold'>{title}</Text>
     </TouchableOpacity>
   )
 }
